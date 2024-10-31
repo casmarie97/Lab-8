@@ -3,6 +3,11 @@
 	overflow:hidden;
 }
 
+#navbar-container {
+	float: left;
+	width: 100%;
+	position: relative;
+}									 
 #main-navbar ul {
 	list-style-type: none;
 	padding: 0;
@@ -19,23 +24,25 @@
 }
 #main-navbar ul li a {
 	display: block;
-	text-decoration: none;
+	
 	padding: 10px 20px;
 	color: #fff;
+	text-decoration: none;
+
 }
 #navbar-container ul li a:hover {
 	background-color: #000;
 }
 
 #onpage {
-	text-decoration: underline overlap;
+	text-decoration: underline overline;
 
 }
 
 #sidebar {
 	position: fixed;
 	right: 0%;
-	background-color: blue;
+	background-color: red;
 	height: 100%;
 	width: 20%;
 }
@@ -45,7 +52,7 @@
 	text-align: center;
 	padding: 0;
 }
-#sidebar ul li a {
+#sidebar ul li a {															
 	color: #fff;
 	text-decoration: none;
 	display: block;
